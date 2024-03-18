@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000
 // middlewares
 app.use(express.json());
 app.use(cors({
-    origin: "https://web-interns.netlify.app",
+    origin: "https://web-interns.netlify.app/",
     credentials: true,
 }));
 
